@@ -1,0 +1,153 @@
+@font-face {
+    font-family: TagBoyHardCore;
+    src: url(TagBoyHardcore/TagBoyHardcore.ttf);
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #26425a ;
+}
+
+/*div {
+    border: solid;
+}*/
+
+.kepala{
+    position:fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+div.header{
+    align-items: center;
+    background-color: #000939;
+    color: #04ffff;
+    font-family: TagBoyHardCore;
+    width: 20%;
+    padding-left: 5%;
+    
+}
+
+.navigation1 h1, .navigation2 h1, .navigation3 h1, .header h1{
+    font-weight: normal;
+    
+    
+}
+
+.header, .navigation1 , .navigation2, .navigation3 {
+    float: left;
+    width: 25%;
+    left: 0px;  
+    right: 0%;
+}
+
+.navigation1, .navigation2, .navigation3, a{
+    color: #efefef;
+    background-color: #000939;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: none;
+    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.content {
+    position: relative;
+    margin-top: 100px;
+    padding: 5px;
+}
+
+.artikel1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #26425a;
+    padding: 5px;
+    align-items: center;
+    color: white;
+    border-radius: 25px;
+}
+
+.artikel1 h2 {
+    font-weight: normal;
+}
+.isi img {
+    width: 50%;
+}
+
+.isi {
+    padding: 10px;
+}
+
+.isi img{
+    
+    float: left;
+    
+    }
+
+
+
+.table {
+    text-align: center;
+    display: grid;
+    width: 49%;
+    margin: 0% auto;
+    justify-content: space-evenly;
+    grid-template-columns: 100px auto auto ;
+    gap: 10px 10px;
+}
+
+.bio {
+    display: grid;
+    background-color: #4c996b;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: white;
+    border-radius: 25px;
+
+}
+.bio a{
+    text-decoration: none;
+    background-color: inherit;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.item2 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+.item2-1{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+.item2-3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+.Pengalaman  {
+    padding: 5px;
+    color:#efefef;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
