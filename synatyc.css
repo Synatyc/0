@@ -145,7 +145,13 @@ a:link {
     padding: 5px;
     color:#efefef;
     font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: left;
+    float: left;
     
+}
+.Pengalaman h2 {
+    text-align: center;
 }
 
 
