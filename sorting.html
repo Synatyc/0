@@ -15,7 +15,7 @@
             <a href=""><h1>home</h1></a>
         </div>
         <div class="navigation2">
-            <a href=""><h1>profile</h1></a>
+            <a href="synatyc.html"><h1>profile</h1></a>
         </div>
         <div class="navigation3">
             <a href=""><h1>data book</h1></a>
@@ -74,33 +74,34 @@
         </div>
         <div class="isi sub-judul1">
             <h2>
-                Buble Shorting
+                Quick Sort
             </h2>
         </div>
         <div class="isi paragraph1">
-            <p>Bubble Sort adalah salah satu algoritma sorting yang paling sederhana. Algoritma ini bekerja dengan membandingkan elemen-elemen berpasangan dalam daftar dan menukar mereka jika diperlukan. Proses ini terus berlanjut hingga semua elemen berada dalam urutan yang benar.</p>
+            <p>Algoritma Quick Sort adalah salah satu algoritma pengurutan yang efisien dan banyak digunakan dalam pemrograman. Metode ini menggunakan pendekatan “Pecah dan Taklukkan” untuk mengurutkan elemen-elemen dalam sebuah daftar atau array Dalam prosesnya, algoritma ini memilih suatu elemen sebagai pivot dan kemudian mempartisi sisa elemen-elemen ke dalam dua kelompok: elemen-elemen yang lebih kecil dari pivot, dan elemen-elemen yang lebih besar dari pivot. Setelah itu, Quick Sort secara rekursif mengurutkan kedua kelompok tersebut hingga seluruh elemen berada pada posisi yang tepat. Algoritma Quick Sort adalah metode pengurutan data yang efisien dan populer dalam ilmu komputer. Prinsip kerjanya berdasarkan metode “Pecah dan Taklukkan,” di mana data yang akan diurutkan dipartisi menjadi dua bagian, lalu bagian-bagian tersebut diurutkan secara terpisah, dan akhirnya digabungkan kembali.</p>
         </div>
         <div class="isi ilustrasi1">
-            <img src="gambar/gambar-sorting/gambar-buble.sorting.png" alt="ilustrasi2">
+            <img src="gambar/gambar-sorting/quic-sort.png" alt="ilustrasi2">
         </div>
         <div class="isi step">
-            <ol>First Pass
-            <li>Mulai dari indeks pertama array. </li>
-            <li>Bandingkan element pertama dengan element kedua. Jika element pertama lebih besar dari element kedua, tukar posisi keduanya.</li>
-            <li>Lanjutkan dengan membandingkan element kedua dengan element ketiga, dan seterusnya hingga satu element sebelum element terakhir.    </li>
-            <li>Setelah mencapai element terakhir, element terbesar akan berada di posisi terakhir.</li> 
+            <ol>Cara Kerja Algoritma Quick Sort
+            <li>Pemilihan Pivot
+                <p>Pertama, algoritma Quick Sort memilih sebuah elemen dari data yang akan diurutkan sebagai pivot. Pemilihan pivot dapat dilakukan dengan berbagai cara, seperti memilih elemen pertama, terakhir, atau bahkan elemen di tengah data. Pemilihan pivot yang cerdas dapat membantu meningkatkan kinerja algoritma.</p> </li>
+            <li>Partisi Data
+                <p>Setelah pivot dipilih, algoritma melakukan proses partisi pada data. Ini berarti semua elemen dalam data akan dibagi menjadi dua kelompok. Elemen-elemen yang lebih kecil dari pivot akan berada di satu kelompok, sementara elemen-elemen yang lebih besar dari pivot akan berada di kelompok lain.</p>
+            </li>
+            <li>Rekursif pada Sub-Array
+                <p>Setelah partisi, kita memiliki dua sub-array terpisah, yaitu sub-array dengan elemen-elemen yang lebih kecil dari pivot dan sub-array dengan elemen-elemen yang lebih besar dari pivot </p>
+            </li>
+            <li>Penggabungan (Combine)
+                <p>Setelah semua sub-array terurut, tahap akhir dari algoritma Quick Sort adalah menggabungkan hasil pengurutan tersebut menjadi satu kesatuan. Hasil akhirnya adalah array yang telah diurutkan secara keseluruhan.</p>
+            </li> 
+            <li> Selesai
+                <p>Proses Quick Sort selesai, dan data telah berhasil diurutkan dengan cepat dan efisien.</p>
+            </li>
             </ol>
         </div>
-        <div class="isi step2">
-            <ol>Second Pass
-                <li>Ulangi langkah-langkah 2-4 untuk element-element yang belum terurut, tetapi kali ini hanya hingga element sebelum element terakhir yang sudah terurut pada iterasi sebelumnya.</li>
-            </ol>
-        </div>
-        <div class="isi step3">
-            <ol>Third Pass
-                <li>Algoritma berhenti ketika tidak ada lagi pertukaran posisi element yang dilakukan pada iterasi.</li>
-            </ol>
-        </div> 
+        
     </div>
         
 
