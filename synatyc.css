@@ -12,49 +12,50 @@ body {
     border: solid;
 }*/
 
-.kepala{
-    position:fixed;
-    top:0px;
-    left: 0px;
+.header, .navigation{
+    display: grid;
+   
+}
+.header {
+    grid-template-columns: auto auto auto auto ;
     width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    place-items: right;
     z-index: 1;
-}
-
-div.header{
-    align-items: center;
-    background-color: #000939;
-    color: #04ffff;
-    font-family: TagBoyHardCore;
-    width: 20%;
-    padding-left: 5%;
     
 }
 
-.navigation1 h1, .navigation2 h1, .navigation3 h1, .header h1{
+.navigation {
+    background-color: #000939;
+    padding: 10px;
+    
+    
+    
+}
+.synatyc {
+    border-right: solid;
+}
+.synatyc h1{
     font-weight: normal;
-    
-    
+    font-family:TagboyHardCore;
+    color: #04ffff;
 }
-
-.header, .navigation1 , .navigation2, .navigation3 {
-    float: left;
-    width: 25%;
-    left: 0px;  
-    right: 0%;
-}
-
-.navigation1, .navigation2, .navigation3, a{
-    color: #efefef;
-    background-color: #000939;
-    align-items: center;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: none;
-    
-}
-
-a:link {
+.synatyc a{
+    color: inherit;
     text-decoration: none;
+}
+.Home, .Profile, .Data {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #efefef;
+    justify-content: right;
+    
+}
+.Home h1 a, .Profile h1 a, .Data h1 a {
+    text-decoration: none;
+    font-weight: normal;
+    color: inherit;
 }
 
 .content {
